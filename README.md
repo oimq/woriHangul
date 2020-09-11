@@ -1,3 +1,117 @@
+## Regular Expressions (Python RegEx)
+
+https://www.programiz.com/python-programming/regex
+
+### `^a...s$`
+
+>  any five letter string starting with a and ending with s.
+
+<br/><br/>
+* MetaCharacters
+
+### `[abc]`
+
+> Square brackets specifies a set of characters you wish to match.
+
+### `[a-e]`
+
+> is the same as [abcde]
+
+### `[^abc]`
+
+> complement (invert) the character set by using caret ^ symbol at the start of a square-bracket.
+
+### `.`
+
+> A period matches any single character (except newline '\n').
+
+### `^`
+
+> The caret symbol ^ is used to check if a string starts with a certain character.
+
+### `$`
+
+> The dollar symbol $ is used to check if a string ends with a certain character.
+
+### `*`
+
+> The star symbol * matches zero or more occurrences of the pattern left to it.
+
+### `+`
+
+> The plus symbol + matches one or more occurrences of the pattern left to it.
+
+### `?`
+
+> The question mark symbol ? matches zero or one occurrence of the pattern left to it.
+
+### `{}`
+
+> Consider this code: {n,m}. This means at least n, and at most m repetitions of the pattern left to it.
+
+### `|`
+
+> Vertical bar | is used for alternation (or operator).
+
+### `()`
+
+> Parentheses () is used to group sub-patterns. For example, (a|b|c)xz match any string that matches either a or b or c followed by xz
+
+### `\`
+
+> Backlash \ is used to escape various characters including all metacharacters. For example, \\$a match if a string contains $ followed by a. Here, $ is not interpreted by a RegEx engine in a special way.
+
+<br/><br/>
+* Special Sequences
+
+### `\A`
+
+> Matches if the specified characters are at the start of a string.
+
+### `\b`
+
+> Matches if the specified characters are at the beginning or end of a word.
+
+### `\B`
+
+> Opposite of \b. Matches if the specified characters are not at the beginning or end of a word.
+
+### `\d`
+
+> Matches any decimal digit. Equivalent to [0-9]
+
+### `\D`
+
+> Matches any non-decimal digit. Equivalent to [^0-9]
+
+### `\s`
+
+> Matches where a string contains any whitespace character. Equivalent to [ \t\n\r\f\v]
+
+### `\S`
+
+> Matches where a string contains any non-whitespace character. Equivalent to [^ \t\n\r\f\v].
+
+### `\w`
+
+> Matches any alphanumeric character (digits and alphabets). Equivalent to [a-zA-Z0-9_]. By the way, underscore _ is also considered an alphanumeric character.
+
+### `\W`
+
+> Matches any non-alphanumeric character. Equivalent to [^a-zA-Z0-9_].
+
+### `\Z`
+
+>  Matches if the specified characters are at the end of a string.
+
+
+
+---
+
+<br/>
+
+## Tags
+
 | 태그 | 이름 | 설명 | 예시 |
 | --- | --- | --- | --- |
 |NNG|	일반 명사   | 일반 개념을 표시하는 명사.|
